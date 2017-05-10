@@ -24,10 +24,18 @@ Luban(鲁班)——Android图片压缩工具，仿微信朋友圈压缩策略
 滚动截屏|1080*6433,1.56M|1080*6433,351k|1080*6433,482k
 
 #导入
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'io.reactivex:rxjava:1.1.6'
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
     
-    compile 'top.zibin:Luban:1.0.8'
+    <dependency>
+	    <groupId>com.github.jieme198902</groupId>
+	    <artifactId>Luban</artifactId>
+	    <version>0.1</version>
+	</dependency>
     
 #使用
 ###Listener方式
